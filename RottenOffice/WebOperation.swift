@@ -33,7 +33,6 @@ public class WebOperation : NSObject, NSURLConnectionDataDelegate, NSURLConnecti
                 r.HTTPMethod = "GET"
                 r.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
                 r.setValue("application/json", forHTTPHeaderField: "Accept")
-                r.setValue("authcookie=Spec2Jars!; ", forHTTPHeaderField:"Cookie")
                 return r
                 }()
         
