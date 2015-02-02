@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D525BA1A8011C600D27D5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D525B91A8011C600D27D5B /* AppDelegate.swift */; };
+		01D525BC1A8011C600D27D5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D525BB1A8011C600D27D5B /* ViewController.swift */; };
+		01D525BF1A8011C600D27D5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D525BD1A8011C600D27D5B /* Main.storyboard */; };
+		01D525C11A8011C600D27D5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D525C01A8011C600D27D5B /* Images.xcassets */; };
+		01D525C41A8011C600D27D5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D525C21A8011C600D27D5B /* LaunchScreen.xib */; };
+		01D525D01A8011C700D27D5B /* RottenOfficeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D525CF1A8011C700D27D5B /* RottenOfficeTests.swift */; };
+		01D525DA1A8011E700D27D5B /* WebOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D525D91A8011E700D27D5B /* WebOperation.swift */; };
+		01D525DC1A80130C00D27D5B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D525DB1A80130C00D27D5B /* Movie.swift */; };
+		01D525DE1A8014C100D27D5B /* WebOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D525DD1A8014C100D27D5B /* WebOperations.swift */; };
+		01D525E01A80232C00D27D5B /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D525DF1A80232C00D27D5B /* MovieCell.swift */; };
+		01D525E21A802BFA00D27D5B /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D525E11A802BFA00D27D5B /* ImageCache.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01D525CA1A8011C700D27D5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01D525AC1A8011C600D27D5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01D525B31A8011C600D27D5B;
+			remoteInfo = RottenOffice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D525B41A8011C600D27D5B /* RottenOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RottenOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D525B81A8011C600D27D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D525B91A8011C600D27D5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01D525BB1A8011C600D27D5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01D525BE1A8011C600D27D5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01D525C01A8011C600D27D5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		01D525C31A8011C600D27D5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		01D525C91A8011C700D27D5B /* RottenOfficeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RottenOfficeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D525CE1A8011C700D27D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D525CF1A8011C700D27D5B /* RottenOfficeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RottenOfficeTests.swift; sourceTree = "<group>"; };
+		01D525D91A8011E700D27D5B /* WebOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebOperation.swift; sourceTree = "<group>"; };
+		01D525DB1A80130C00D27D5B /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		01D525DD1A8014C100D27D5B /* WebOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebOperations.swift; sourceTree = "<group>"; };
+		01D525DF1A80232C00D27D5B /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		01D525E11A802BFA00D27D5B /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01D525B11A8011C600D27D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D525C61A8011C700D27D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01D525AB1A8011C600D27D5B = {
+			isa = PBXGroup;
+			children = (
+				01D525B61A8011C600D27D5B /* RottenOffice */,
+				01D525CC1A8011C700D27D5B /* RottenOfficeTests */,
+				01D525B51A8011C600D27D5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01D525B51A8011C600D27D5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01D525B41A8011C600D27D5B /* RottenOffice.app */,
+				01D525C91A8011C700D27D5B /* RottenOfficeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01D525B61A8011C600D27D5B /* RottenOffice */ = {
+			isa = PBXGroup;
+			children = (
+				01D525B91A8011C600D27D5B /* AppDelegate.swift */,
+				01D525E11A802BFA00D27D5B /* ImageCache.swift */,
+				01D525DB1A80130C00D27D5B /* Movie.swift */,
+				01D525DF1A80232C00D27D5B /* MovieCell.swift */,
+				01D525BB1A8011C600D27D5B /* ViewController.swift */,
+				01D525D91A8011E700D27D5B /* WebOperation.swift */,
+				01D525DD1A8014C100D27D5B /* WebOperations.swift */,
+				01D525C01A8011C600D27D5B /* Images.xcassets */,
+				01D525C21A8011C600D27D5B /* LaunchScreen.xib */,
+				01D525BD1A8011C600D27D5B /* Main.storyboard */,
+				01D525B71A8011C600D27D5B /* Supporting Files */,
+			);
+			path = RottenOffice;
+			sourceTree = "<group>";
+		};
+		01D525B71A8011C600D27D5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01D525B81A8011C600D27D5B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01D525CC1A8011C700D27D5B /* RottenOfficeTests */ = {
+			isa = PBXGroup;
+			children = (
+				01D525CF1A8011C700D27D5B /* RottenOfficeTests.swift */,
+				01D525CD1A8011C700D27D5B /* Supporting Files */,
+			);
+			path = RottenOfficeTests;
+			sourceTree = "<group>";
+		};
+		01D525CD1A8011C700D27D5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01D525CE1A8011C700D27D5B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01D525B31A8011C600D27D5B /* RottenOffice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D525D31A8011C700D27D5B /* Build configuration list for PBXNativeTarget "RottenOffice" */;
+			buildPhases = (
+				01D525B01A8011C600D27D5B /* Sources */,
+				01D525B11A8011C600D27D5B /* Frameworks */,
+				01D525B21A8011C600D27D5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RottenOffice;
+			productName = RottenOffice;
+			productReference = 01D525B41A8011C600D27D5B /* RottenOffice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01D525C81A8011C700D27D5B /* RottenOfficeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D525D61A8011C700D27D5B /* Build configuration list for PBXNativeTarget "RottenOfficeTests" */;
+			buildPhases = (
+				01D525C51A8011C700D27D5B /* Sources */,
+				01D525C61A8011C700D27D5B /* Frameworks */,
+				01D525C71A8011C700D27D5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01D525CB1A8011C700D27D5B /* PBXTargetDependency */,
+			);
+			name = RottenOfficeTests;
+			productName = RottenOfficeTests;
+			productReference = 01D525C91A8011C700D27D5B /* RottenOfficeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01D525AC1A8011C600D27D5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cold and Logical";
+				TargetAttributes = {
+					01D525B31A8011C600D27D5B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					01D525C81A8011C700D27D5B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 01D525B31A8011C600D27D5B;
+					};
+				};
+			};
+			buildConfigurationList = 01D525AF1A8011C600D27D5B /* Build configuration list for PBXProject "RottenOffice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01D525AB1A8011C600D27D5B;
+			productRefGroup = 01D525B51A8011C600D27D5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01D525B31A8011C600D27D5B /* RottenOffice */,
+				01D525C81A8011C700D27D5B /* RottenOfficeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01D525B21A8011C600D27D5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D525BF1A8011C600D27D5B /* Main.storyboard in Resources */,
+				01D525C41A8011C600D27D5B /* LaunchScreen.xib in Resources */,
+				01D525C11A8011C600D27D5B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D525C71A8011C700D27D5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01D525B01A8011C600D27D5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D525BC1A8011C600D27D5B /* ViewController.swift in Sources */,
+				01D525DE1A8014C100D27D5B /* WebOperations.swift in Sources */,
+				01D525E01A80232C00D27D5B /* MovieCell.swift in Sources */,
+				01D525BA1A8011C600D27D5B /* AppDelegate.swift in Sources */,
+				01D525DC1A80130C00D27D5B /* Movie.swift in Sources */,
+				01D525E21A802BFA00D27D5B /* ImageCache.swift in Sources */,
+				01D525DA1A8011E700D27D5B /* WebOperation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D525C51A8011C700D27D5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D525D01A8011C700D27D5B /* RottenOfficeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01D525CB1A8011C700D27D5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01D525B31A8011C600D27D5B /* RottenOffice */;
+			targetProxy = 01D525CA1A8011C700D27D5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01D525BD1A8011C600D27D5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D525BE1A8011C600D27D5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01D525C21A8011C600D27D5B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D525C31A8011C600D27D5B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01D525D11A8011C700D27D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01D525D21A8011C700D27D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01D525D41A8011C700D27D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RottenOffice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01D525D51A8011C700D27D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RottenOffice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01D525D71A8011C700D27D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RottenOfficeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RottenOffice.app/RottenOffice";
+			};
+			name = Debug;
+		};
+		01D525D81A8011C700D27D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RottenOfficeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RottenOffice.app/RottenOffice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01D525AF1A8011C600D27D5B /* Build configuration list for PBXProject "RottenOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D525D11A8011C700D27D5B /* Debug */,
+				01D525D21A8011C700D27D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01D525D31A8011C700D27D5B /* Build configuration list for PBXNativeTarget "RottenOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D525D41A8011C700D27D5B /* Debug */,
+				01D525D51A8011C700D27D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01D525D61A8011C700D27D5B /* Build configuration list for PBXNativeTarget "RottenOfficeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D525D71A8011C700D27D5B /* Debug */,
+				01D525D81A8011C700D27D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01D525AC1A8011C600D27D5B /* Project object */;
+}
